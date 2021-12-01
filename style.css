@@ -1,0 +1,18 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 200px;
+    empty-cells:hide;
+
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width:200px;
+    empty-cells: hide;
+     }
+
+  td {width:400px;}
+  td:empty {background: green;width:400px}
